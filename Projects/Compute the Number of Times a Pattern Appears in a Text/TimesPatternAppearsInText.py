@@ -23,3 +23,12 @@ def inputToPatternCount():
     pattern = file.readline().strip()
     count = patternCount(text, pattern)
     print(count)
+
+    
+    """
+    sample input: 
+    GCGCG
+    GCG
+    sample output:
+    2 
+    """
